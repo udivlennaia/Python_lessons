@@ -1,18 +1,10 @@
-text = "Штильмарк Наследник из Калькутты 1953"
-text = list(text)
-print(text)
-print(type(text))
-text = str(text)
-print(type(text))
+my_list = [3, 4], True, {9, 4}, 5.3
+for i, item in enumerate(my_list, 1):
+    print(f"{i}){item}-{type(item)}")
 
 
-data = {"Штильмарк", "Гулаг", 1953, True}
-print(type(data))
 
 
-data = ["Штильмарк", "ГУЛАГ", 1953, True]
-print(type(data))
-print(len(data))
 
 
 

@@ -1,7 +1,15 @@
-text = input("Введите слово -")
-text = list(text)
-print(type(text))
-print(text)
+a = input("Введите элементы для массива разделяя их пробелом : -").split()
+i = 0
+print(f'Оригинальный список{a}')
+while i + 1 < len(a):
+    if i % 2 == 0:
+        a.insert(i, a.pop(i + 1))
+        i += 1
+print(f"Измененный список{a}")
+
+
+        
+
 
 
 
